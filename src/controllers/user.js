@@ -1,7 +1,7 @@
 const { User } = require('../models');
 
 module.exports = async (_req, res) => {
-  try{
+  try {
     const users = await User.findAll();
     res.status(200).json(users);
   } catch (err) {
