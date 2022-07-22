@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["node", "app/src/api/server"]
+CMD ["node", "src/api/server.js"]

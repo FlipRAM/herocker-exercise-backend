@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: node app/src/api/server
+  web: node src/api/server.js
